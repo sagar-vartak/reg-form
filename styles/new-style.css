@@ -1,0 +1,41 @@
+body {
+    color: white;
+    background-color: black;
+  }
+  .forms{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-around;
+  }
+  fieldset{
+    font-weight: bold;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-around;
+  }
+  h1{
+      text-align: center;
+  }
+ div>a>#top{
+        position: fixed;
+        color: white;
+        bottom: 20px;
+        right: 30px;
+        text-align: right;
+ }
+div>a#back{
+        color: white;
+
+}
+a{
+  color: rgba(252, 76, 7);
+  text-decoration: none;
+}
+a:hover{
+  color: cyan;
+  border-bottom: 2px solid cyan;
+}

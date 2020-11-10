@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link  rel="stylesheet" href="./styles/new-style.css">
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <forms class="forms" action="" method="post">
+        <fieldset>
+            <legend class="p-details">Personal Details</legend>
+        <label for="username">name :</label>
+        <input type="text" value="" id="username">
+        <br>
+
+        <label for="email">email :</label>
+        <input type="email" value="" id="email">
+        <br>
+
+        <label id="phn" for="phn">phone number :</label>
+        <input type="text" value="" id="phn">
+        <br>
+        <label for="password">password :</label>
+        <input type="password" value="" id="pswd">
+        <br>
+
+
+    </fieldset>
+    <fieldset class="interests">
+        <legend>Interests</legend>
+        <div>
+        <input type="radio"  value="1">Coding</input><br>
+        <input type="radio"  value="2">Art</input><br>
+        <input type="radio"  value="3"g>Movies</input><br>
+        <input type="radio"  value="4">Gaming</input><br>
+
+        <label for="other">Other Interests</label>
+        <input type="text" id="other">
+    </div>
+    </fieldset>
+    <fieldset class="intern">
+        <legend>INTERNSHIPS</legend>
+
+        <label for="other">Completed internships if any:</label>
+        <input type="text" id="other"> <br>(if not type NIL)
+        
+    </fieldset>
+    <fieldset class="emp">
+        <legend>Employement</legend>
+        Were you employed somewhere before?<br>
+        <input type="radio" name="employment" value="1">Employed</option><br>
+        <input type="radio" name="employment" value="2">Not Employed</option><br>
+    </fieldset>
+   
+        <br>
+        <div>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+        </div>
+            <p>Already Registered <a id="top" href="./index.html" title="SIGN IN">Sign In</a></p>
+        </div>
+        
+    </forms>
+</body>
+</html>
